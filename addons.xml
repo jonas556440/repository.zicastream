@@ -14,10 +14,10 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.roggerstream"
+<addon id="plugin.video.zicastream"
        name="Rogger Stream"
        version="5.0.2"
-       provider-name="Rogger Henrique, Filipe Carvalho e Marcos Alvarenga">
+       provider-name="ZICASTREAM">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -36,9 +36,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Lista de canais IPTV by Rogger</summary>
-    <description lang="en">Assista a vários canais transmitidos pela internet diretamente no Kodi</description>
-    <platform>all</platform>
+    <summary lang="en">repo</summary>
+    <description lang="en">repositorio</platform>
   </extension>
 </addon>
 
@@ -67,7 +66,7 @@
 
 <addon id="rogger.repository" name="rogger repository" version="0.0.2" provider-name="rogger2">
 	<extension point="xbmc.addon.repository" name="rogger Add-on Repository">
-		<info compressed="false">http://raw.github.com/rogger2/rogger.repository/master/addons.xml</info>
+		<info compressed="false">https://raw.githubusercontent.com/zicastream/repository.zicastream/master/addons.xml</info>
 		<checksum>http://raw.github.com/rogger2/rogger.repository/master/addons.xml.md5</checksum>
 		<datadir zip="true">http://raw.github.com/rogger2/rogger.repository/master/repo/</datadir>
 	</extension>
